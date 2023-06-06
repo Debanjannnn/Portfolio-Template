@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debanjan's Web-Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(22, 2, 56);
+            color: rgb(254, 254, 254);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(39, 28, 85);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(251, 250, 250);
+
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 40%;
+
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+            margin: 30px 0;
+
+        }
+
+        .leftSection .buttons {
+            padding: 0 23px;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            border-radius: 6px;
+            color: #070707;
+            background: rgb(255, 253, 249);
+            border: 2px solid rgb(0, 0, 0);
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+
+        .rightSection img {
+            width: 100%;
+            
+            margin: -71px;
+
+        }
+
+        .text-gray {
+            color: gray;
+            height: 30px;
+            font-size: 1rem;
+
+        }
+
+        .purple {
+            color: blueviolet;
+
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .SecondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .SecondSection h1 {
+            font-size: 2.3rem;
+            height: 86px;
+
+        }
+
+        .SecondSection .box {
+
+            background: white;
+            margin: 56px 0;
+            height: 2px;
+            width: 80vw;
+            display: flex;
+
+        }
+
+        .SecondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 190px;
+
+        }
+
+        .image-top {
+            width: 43px;
+            position: relative;
+            top: -51px;
+
+            left: -22px;
+
+        }
+
+        .vertical-tittle {
+            width: 150px;
+            position: relative;
+            top: 45px;
+            left: -67px;
+        }
+
+
+        .vertical-desc {
+            width: 150px;
+            position: relative;
+            top: 45px;
+            color: rgb(98, 98, 100);
+            font-size: 10px;
+            left: -65px;
+        }
+
+        footer {
+            background-color: rgb(38, 3, 107);
+           
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 133px;
+            justify-content: space-evenly
+            
+        }
+
+        footer ul {
+            list-style-type: none;
+        }
+
+        .footer>div {
+            width: 411px;
+        }
+
+        footer .footer-rights {
+            padding: 4px 0;
+            width: 671px;
+            text-align: center;
+            height: 82px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Portfolio Template</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">"YOUR NAME"</span>
+                <div>and I'm a video editor and a</div>
+                <span id="element">Web Developer</span>
+                <div>
+                    <buttons class="btn">Download Resume</buttons>
+                    <buttons class="btn">Visit Github</buttons>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="26.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection">
+            <span class="text-gray">Past Experience</span>
+            <h1>What I have done so far</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="qu.png" alt="">
+                    <div class="vertical-tittle">
+                        Position:
+                        (2005-2007)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio neque dicta quas incidunt
+                        maxime perferendis, dolore praesentium quisquam tempore quam consequatur harum suscipit
+                        voluptatum ad sunt delectus officia dolor. Consectetur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="job.png" alt="">
+                    <div class="vertical-tittle">
+                        Position:
+                        (2008-2013)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio neque dicta quas incidunt
+                        maxime perferendis, dolore praesentium quisquam tempore quam consequatur harum suscipit
+                        voluptatum ad sunt delectus officia dolor. Consectetur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="job.png" alt="">
+                    <div class="vertical-tittle">
+                        Position:
+                        (2013-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio neque dicta quas incidunt
+                        maxime perferendis, dolore praesentium quisquam tempore quam consequatur harum suscipit
+                        voluptatum ad sunt delectus officia dolor. Consectetur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="job.png" alt="">
+                    <div class="vertical-tittle">
+                        Position:
+                        (2023-2069)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio neque dicta quas incidunt
+                        maxime perferendis, dolore praesentium quisquam tempore quam consequatur harum suscipit
+                        voluptatum ad sunt delectus officia dolor. Consectetur!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Services:</li>
+
+                    
+
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Legal:</li>
+                   
+
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Help:</li>
+                    
+                   
+
+
+                </ul>
+            </div>
+            <div class="footer-rights">
+                &#169;Debanjans Template | All rights reserved
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web </i>Developer .'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
